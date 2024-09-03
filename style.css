@@ -67,7 +67,7 @@
   }
   
   .navbar a {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 500;
@@ -113,7 +113,7 @@
     margin: 1rem 0;
   }
   .home-content p{
-    font-size: 1.9rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 2.;
     padding-left: 22rem;
@@ -139,7 +139,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size:  3rem;
+    font-size:  5rem;
     background: transparent;
     border: 2px solid var(--main-color);
     border-radius: 50%;
@@ -166,7 +166,7 @@
     padding: 1rem 3rem;
     background: var(--main-color);
     border-radius: 3rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: black;
     border: 2px solidtransparent;
     font-weight: 600;
@@ -216,13 +216,14 @@
 .about-content h2{
 
   text-align: centre;
-  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-size: 6rem;
  
 
 }
 .about-content p{
 
-  font-size: 1.9rem;
+  font-size: 3rem;
     font-weight: 500;
     line-height: 2.;
     padding-right: 22rem;
@@ -366,7 +367,7 @@ background-color: var(--main-color);
 .footer ul li a:hover{
   border-bottom: 3px solid var(--main-color);
 }
-@media(max-width:1024px){
+@media(max-width:768px){
   #menu-icon{
     display: block;
   }
@@ -403,7 +404,17 @@ background-color: var(--main-color);
     text-align: center;
   }
   .home-img img{
-    width: 52vw;
+    width: 50vw;
+    height: auto;
+    margin: 0 auto; 
+
+
+  }
+
+  .about-img img{
+    width: 50vw;
+    height: auto;
+    margin: 0 auto; 
 
 
   }
@@ -416,11 +427,42 @@ background-color: var(--main-color);
     text-align: center;
     margin: 2rem 0;
   }
+
+  .about p{
+    font-size: 1.6rem; 
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    padding: 0 1.5rem; 
+  }
   .about img{
     width: 52vw;
+    
+  }
+  .navbar {
+    margin-bottom: 2rem; 
   }
   .contact form{
     flex-direction: column;
   }
+  .home-content h1 {
+    font-size: 5rem; 
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+  }
 
+  .home-content p {
+    font-size: 1.6rem; 
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    padding: 0 1.5rem; 
+  }
+  .home{
+    margin-top: 19rem;
+  }
 }
+
+
+
