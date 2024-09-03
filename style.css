@@ -277,6 +277,7 @@ background-color: var(--main-color);
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
   margin: 0 auto;
+ 
   
 }
 .service-box:hover{
@@ -373,6 +374,7 @@ background-color: var(--main-color);
   }
   .service-box{
     height: 400px;
+    margin-bottom: 3rem;
   }
   .navbar{
     position: absolute;
@@ -465,6 +467,7 @@ background-color: var(--main-color);
   .home{
     margin-top: 19rem;
   }
+ 
 }
 
 
