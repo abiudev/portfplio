@@ -371,6 +371,9 @@ background-color: var(--main-color);
   #menu-icon{
     display: block;
   }
+  .service-box{
+    height: 400px;
+  }
   .navbar{
     position: absolute;
     top: 100%;
