@@ -226,10 +226,11 @@
 }
 .about-content p{
 
-  font-size: 3rem;
+  font-size: 2rem;
     font-weight: 500;
     line-height: 2.;
     padding-right: 22rem;
+    text-align:justify;
 }
 
 .about-content .btn{
