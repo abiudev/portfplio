@@ -412,10 +412,8 @@ background-color: var(--main-color);
     align-items: center;
     text-align: center;
   }
-    home-content p{
-   
-    text-align: justify;
-  }
+    
+  
   .home-img img{
     width: 50vw;
     height: auto;
