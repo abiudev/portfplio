@@ -369,7 +369,7 @@ background-color: var(--main-color);
 .footer ul li a:hover{
   border-bottom: 3px solid var(--main-color);
 }
-@media(max-width:768px){
+@media(max-width:1024px){
   #menu-icon{
     display: block;
   }
