@@ -439,7 +439,7 @@ background-color: var(--main-color);
 
   .about p{
     font-size: 1.6rem; 
-    text-align: center; 
+    text-align: justify; 
     display: block; 
     margin: 0 auto; 
     padding: 0 1.5rem; 
