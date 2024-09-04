@@ -444,6 +444,9 @@ background-color: var(--main-color);
     margin: 0 auto; 
     padding: 0 1.5rem; 
   }
+    .home p{
+         text-align: justify; 
+    }
   .about img{
     width: 52vw;
     
