@@ -114,11 +114,11 @@
     margin: 1rem 0;
   }
   .home-content p{
+    
     font-size: 3rem;
     font-weight: 500;
-    line-height: 2;
-    padding-left: 22rem;
-    
+    line-height: 2.;
+    padding-right: 22rem;
   }
   .home-img img{
     width: 32vw;
